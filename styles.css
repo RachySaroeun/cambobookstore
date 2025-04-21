@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .books {
+    margin-bottom: 2rem;
+  }
+  
+  .book-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .book-card {
+    background: rgb(227, 226, 233);
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .contact button {
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  /* Default Light Theme */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  header, footer {
+    transition: background-color 0.3s ease;
+  }
+  
+  body.dark-mode header {
+    background-color: #1e1e1e;
+  }
+  
+  body.dark-mode footer {
+    background-color: #1e1e1e;
+  }
+  
+  /* Toggle Button */
+  #toggle-theme {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #toggle-theme:hover {
+    background-color: #388e3c;
+  }
+  
+  

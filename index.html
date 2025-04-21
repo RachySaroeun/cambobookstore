@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cambo Book Store</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Cambo Book Store</h1>
+    <p><h3>Your favorite place for books in Cambodia 📚</h3></p>
+     <!-- 🌙 Dark Mode Toggle Button -->
+  <button id="toggle-theme">🌙 Dark Mode</button>
+
+    <p>ហាងសៀវភៅCamBobookStoreយេីងខ្ញុំមានលក់សៀវភៅគ្រប់ប្រភេទ និងសម្ភារះការិយាល័យ សិក្សាគ្រប់ប្រភេទ។
+        Contact :095907744/087250977☎️</p>
+        <input type="text" id="searchBar" placeholder="Search books..." onkeyup="searchBooks()" />     
+  </header>
+  <main>
+    <section class="books">
+      <h2>Featured Books</h2>
+      <div class="book-list">
+        <div class="book-card">
+          <h3>ខ្មែរ សៀវភៅ</h3>
+          <p>Khmer Literature</p>
+        </div>
+          <div class="book-card">
+            <h3>សៀវភៅភាសា</h3>
+            <p>Books Language</p>
+          </div>
+
+        <div class="book-card">
+          <h3>សៀវភៅជំនាញផ្សេងៗ</h3>
+          <p>Other Skill Books</p>
+        </div>
+        <div class="book-card">
+          <h3>Kids Book</h3>
+          <p>Storybooks for Children</p>
+        </div>
+      </div>
+    </section>
+      <div class="book-card">
+        <h3>សម្ភារះ សិក្សារ ការិយាល័យ</h3>
+        <p>School and office supplies</p>
+      </div>
+    </div>
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <button onclick="toggleContact()">Show/Hide Contact Info</button>
+      <div id="contact-info" style="display: none;">
+        <p>📍 Address: Keo Chinda street,Chroy Chongva ,Chory Chongva ,Phnom Penh, Phnom Penh, Cambodia</p>
+        <p>📞 <Phone:>+855 95907744/87250977</Phone:></p>
+        <p>📧 Email: cambobookslibrary01@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2021 Cambo Book Store. All rights reserved.</p>
+     <!-- 🔗 Social Media Links Start -->
+     <div class="social-links">
+        <a href="https://www.facebook.com/sarouenrachy/" target="_blank">
+          <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://t.me/cambobookstore" target="_blank">
+          <i class="fab fa-telegram"></i> Telegram
+        </a>
+        <a href="https://www.tiktok.com/@cambobookstore" target="_blank">
+          <i class="fab fa-tiktok"></i> TikTok
+        </a>
+      </div>
+      <!-- 🔗 Social Media Links End -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
